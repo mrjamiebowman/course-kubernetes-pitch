@@ -1,0 +1,6 @@
+@MrJB.App.OOMemory_HostAddress = http://localhost:5174
+
+GET {{MrJB.App.OOMemory_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
