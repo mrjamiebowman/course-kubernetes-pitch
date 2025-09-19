@@ -10,6 +10,11 @@ Accept: application/json
 
 ###
 
+GET {{MrJB.App.OOMemory_HostAddress}}/alloc?mb=128
+Accept: application/json
+
+###
+
 GET {{MrJB.App.OOMemory_HostAddress}}/gc
 Accept: application/json
 
