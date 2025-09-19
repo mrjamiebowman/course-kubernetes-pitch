@@ -1,6 +1,16 @@
 @MrJB.App.OOMemory_HostAddress = http://localhost:5174
 
-GET {{MrJB.App.OOMemory_HostAddress}}/weatherforecast/
+GET {{MrJB.App.OOMemory_HostAddress}}/stats
+Accept: application/json
+
+###
+
+GET {{MrJB.App.OOMemory_HostAddress}}/alloc?mb=64
+Accept: application/json
+
+###
+
+GET {{MrJB.App.OOMemory_HostAddress}}/gc
 Accept: application/json
 
 ###
